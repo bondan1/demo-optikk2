@@ -1,4 +1,6 @@
 # Wordpress - ignore core, configuration, examples, uploads and logs.
+/*
+/*/
 # https://github.com/github/gitignore/blob/main/WordPress.gitignore
 
 # Core
@@ -25,6 +27,9 @@ wp-config.php
 
 # Example plugin
 /wp-content/plugins/hello.php
+ 
+wp-content/mu-plugins/nexcess-mapps.php
+wp-content/mu-plugins/nexcess-mapps/*
 
 # Uploads
 /wp-content/uploads/
